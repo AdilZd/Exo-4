@@ -1,0 +1,52 @@
+h1 {
+    border: 1px solid red;
+}
+
+/* Exo 2 */ 
+
+section:nth-child(3) li:hover:nth-child(3) {
+    color: green;
+}
+
+section:nth-child(3) li:hover:nth-child(2) {
+    color: green;
+}
+
+/* Exo 3 */
+
+span ~ p {
+    background-color: green;
+}
+
+/* Exo 4 */
+
+li:first-child {
+    border-left: 10px black solid;
+}
+
+/* Exo 5 */
+
+section:nth-child(even) {
+    background-color: yellow;
+}
+
+/* Exo 6 */
+
+section:nth-child(7):hover h2 {
+    font-size: 200%;
+}
+
+input:focus {
+    background-color: black;
+    color: white;
+}
+
+a[href^="./p"] {
+    border-top: 1px solid red;
+}
+
+section:nth-child(3n+3) h2 {
+    color: white;
+    background-color: black;
+}
+
